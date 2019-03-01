@@ -10,10 +10,13 @@ import openqapackage.BaseTest;
 public class getHotelMethods extends BaseTest {
 
     @Test
-    public void createHotel(){
+    public void createHotel()  {
         url.GetUrl();
-        hotel.getHotel();
+        hotelMap.getHotelName();
+        hotel.getHotel("New York");
+        hotelMap.getCheckInPicker();
         hotel.getCheckInDate();
+        hotelMap.getCheckOutPicker();
         hotel.getCheckInDate();
         hotel.getCheckOutDate();
         hotel.selectSearchBtn();

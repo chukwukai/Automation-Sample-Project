@@ -6,9 +6,14 @@ import org.openqa.selenium.support.FindBy;
 
 public class HotelMap extends BaseTest {
 
-    //@FindBy(css = "select2-chosen")
-    @FindBy(xpath = "//*[@id=\"s2id_autogen8\"]/a/span[1]")
+    //@FindBy(css = ".a.select2-choice")
+    //@FindBy(xpath = "//*[@id=\"s2id_autogen8\"]/a")
+    @FindBy(linkText = "Search by Hotel or City Name")
     private WebElement hotelName;
+
+    @FindBy(xpath = "//*[@id=\"select2-drop\"]/ul/li/ul/li/div/span")
+    //@FindBy(className = "select2-match")
+    private WebElement hotelResult;
 
     @FindBy(name = "checkin")
     private WebElement checkInPicker;
@@ -33,6 +38,8 @@ public class HotelMap extends BaseTest {
 
 
     public WebElement getHotelName(){ return hotelName;}
+
+    public WebElement getHotelResult(){ return hotelResult; }
 
     public WebElement getCheckInPicker(){ return checkInPicker;}
 
