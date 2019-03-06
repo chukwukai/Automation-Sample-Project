@@ -18,19 +18,20 @@ public class Hotel extends BaseTest {
     //String slug = ((JavascriptExecutor) driver).executeScript("var elem = document.getElementsByClassName('embeddable-widget-selected-campus-slug')[0];return elem.innerText;").toString();
 
     public void getHotel(String cityName)  {
-       //js.executeScript("hotelMap.getHotelName()");
-       //js.executeScript(".value(\"Hyatt Regency Perth)\"))");
         bodySection();
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.id("hotels"))));
+        wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.id("hotels"))));
+        //WebElement scriptHotelName = (WebElement) js.executeScript("var hotel = document.getElementsById('s2id_autogen8').value 'cityName' ");
         wait.until(ExpectedConditions.visibilityOf(hotelMap.getHotelName()));
-        wait.until(ExpectedConditions.visibilityOf(hotelMap.getHotelName())).sendKeys(cityName, Keys.ENTER);
-        //wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.className("select2-result"))));
-        List <WebElement> hotelResult = driver.findElements(By.className("select2-result"));
+        wait.until(ExpectedConditions.elementToBeClickable(hotelMap.getHotelName())).sendKeys(cityName, Keys.ENTER);
+        wait.until(ExpectedConditions.textToBePresentInElement(hotelMap.getHotelName(), cityName));
+        /*wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.className("select2-result"))));
+       List <WebElement> hotelResult = driver.findElements(By.className("select2-result"));
         for (WebElement readHotel: hotelResult) {
             if(hotelResult.contains(cityName)){
-                wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.className("select2-match")))).click();
+
             }
-        }
+        } */
         //wait.withTimeout(Duration.ofSeconds(20)).until(ExpectedConditions.visibilityOf((hotelMap.getHotelResult())));
         //wait.until(ExpectedConditions.elementToBeClickable((hotelMap.getHotelResult())));
         //hotelMap.getHotelResult().click();
@@ -43,8 +44,7 @@ public class Hotel extends BaseTest {
     }
 
     public void getCheckOutDate() {
-        wait.until(ExpectedConditions.invisibilityOf((hotelMap.getActiveDate())));
-        wait.until(ExpectedConditions.elementToBeClickable(hotelMap.getCheckOutPicker())).click();
+        //wait.until(ExpectedConditions.elementToBeClickable(hotelMap.getCheckOutPicker())).click();
         wait.until(ExpectedConditions.visibilityOf(hotelMap.getActiveDate()));
         wait.until(ExpectedConditions.elementToBeClickable(hotelMap.getActiveDate())).click();
     }

@@ -11,6 +11,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.JavascriptException;
 import driver.DriverPath;
+import Map.navigationMap;
+import Test.NavigateLink;
+
 import org.junit.*;
 
 
@@ -21,7 +24,8 @@ public class BaseTest {
     public static GetUrl url = new GetUrl();
     public static HotelMap hotelMap = PageFactory.initElements(driver, HotelMap.class);
     public static Hotel hotel = new Hotel();
-    
+    public static navigationMap navigateMap = PageFactory.initElements(driver, navigationMap.class);
+    public static NavigateLink navigateLink = new NavigateLink();
 
     public void bodySection() {
 
@@ -29,9 +33,5 @@ public class BaseTest {
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.id("body-section"))));
     }
 
-  /*  public void executeScript(){
-        JavascriptException js = (JavascriptException)WebDriverWait;
-        js.executeScript();
-    } */
 
 }
