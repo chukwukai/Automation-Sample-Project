@@ -7,12 +7,12 @@ import org.openqa.selenium.support.FindBy;
 public class HotelMap extends BaseTest {
 
     //@FindBy(css = ".s2id_autogen8.select2-chosen")
-    @FindBy(xpath = "//*[@id=\"s2id_autogen8\"]/a")
-    //@FindBy(linkText = "Search by Hotel or City Name")
+    //@FindBy(xpath = "//*[@id=\"s2id_autogen8\"]/a")
+    @FindBy(linkText = "Search by Hotel or City Name")
     private WebElement hotelName;
 
-    //@FindBy(xpath = "//*[@id=\"select2-drop\"]/ul/li/ul/li/div/span")
-    @FindBy(className = "select2-match")
+    @FindBy(xpath = "//*[@id=\"select2-drop\"]/ul/li/ul/li/div/span")
+    //@FindBy(className = "select2-match")
     private WebElement hotelResult;
 
     @FindBy(name = "checkin")

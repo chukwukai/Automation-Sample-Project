@@ -11,18 +11,25 @@ import openqapackage.BaseTest;
 public class getHotelMethods extends BaseTest {
 
     @Test
-    public void createHotel()  {
+    public void createHotel() throws Exception  {
         url.GetUrl();
         navigateLink.navigatePage("Hotels");
-        hotelMap.getHotelName();
-        hotel.getHotel("New York");
+        //hotelMap.getHotelName();
+        //hotel.getHotel("New York");
         hotelMap.getCheckInPicker();
         hotel.getCheckInDate();
         hotelMap.getCheckOutPicker();
-        hotel.getCheckInDate();
         hotel.getCheckOutDate();
         hotel.selectSearchBtn();
         hotel.getDetailInfos();
+    }
+
+    @Test
+    public void CreateAccount(){
+        url.GetUrl();
+        acct.getAcctDropdown();
+        ac.signUp();
+        ac.AccountCreate("Tester", "test", "9009009000", "test1@sample.com", "testing123!");
     }
 
     }

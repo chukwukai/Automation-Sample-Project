@@ -1,6 +1,8 @@
 package openqapackage;
 
+import Map.AcctCreation;
 import Map.HotelMap;
+import Test.AccountCreate;
 import Test.Hotel;
 import Test.GetUrl;
 import org.openqa.selenium.By;
@@ -26,6 +28,8 @@ public class BaseTest {
     public static Hotel hotel = new Hotel();
     public static navigationMap navigateMap = PageFactory.initElements(driver, navigationMap.class);
     public static NavigateLink navigateLink = new NavigateLink();
+    public static AcctCreation acct = PageFactory.initElements(driver, AcctCreation.class);
+    public static AccountCreate ac = new AccountCreate();
 
     public void bodySection() {
 
