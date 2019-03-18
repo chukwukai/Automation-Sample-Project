@@ -26,9 +26,6 @@ public class Hotel extends BaseTest {
         wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("//*[@id=\"select2-drop\"]/ul"))));
         wait.until(ExpectedConditions.visibilityOf(hotelMap.getHotelResult()));
         wait.until(ExpectedConditions.elementToBeClickable(hotelMap.getHotelResult())).click();
-        /*wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.className("select2-result"))));
-        wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.className("select2-result"))));
-        wait.until(ExpectedConditions.elementToBeClickable(hotelMap.getHotelResult())).click(); */
         }
 
     public void getCheckInDate() {
@@ -50,27 +47,18 @@ public class Hotel extends BaseTest {
 
     public void getDetailInfos() {
 
-        try {
         List<WebElement> hotelResult = driver.findElements(By.cssSelector(".wow.fadeIn.p-10-0.animated"));
-            bodySection();
-            for (WebElement searchHotel : hotelResult) {
-                if (searchHotel.getText().contains("Hyatt Regency Perth")) ;
-                {
-                    wait.until(ExpectedConditions.elementToBeClickable(hotelMap.getDetailInfos())).click();
-                }
+        bodySection();
+        for (WebElement searchHotel : hotelResult) {
+            if (searchHotel.getText().contains("Hyatt Regency Perth")) ;
+            {
+                wait.until(ExpectedConditions.elementToBeClickable(hotelMap.getDetailInfos())).click();
+                break;
             }
-        }
-        catch (StaleElementReferenceException ex){
-            List<WebElement> hotelResult = driver.findElements(By.cssSelector(".wow.fadeIn.p-10-0.animated"));
-            bodySection();
-            for (WebElement searchHotel : hotelResult) {
-                if (searchHotel.getText().contains("Hyatt Regency Perth")) ;
-                {
-                    wait.until(ExpectedConditions.elementToBeClickable(hotelMap.getDetailInfos())).click();
-                }
-            }
+
         }
     }
+
 
     public void getCheckBox(){
         wait.until(ExpectedConditions.elementToBeClickable(hotelMap.getCheck())).click();
