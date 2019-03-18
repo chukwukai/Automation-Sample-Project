@@ -16,6 +16,20 @@ public class NavigateLink extends BaseTest{
                 wait.until(ExpectedConditions.visibilityOf(navigateMap.getHotelLink()));
                 wait.until(ExpectedConditions.elementToBeClickable(navigateMap.getHotelLink())).click();
                 break;
+            case "Login":
+                bodySection();
+                wait.until(ExpectedConditions.visibilityOf(navigateMap.getAcctDropdown()));
+                wait.until(ExpectedConditions.elementToBeClickable(navigateMap.getAcctDropdown())).click();
+                wait.until(ExpectedConditions.visibilityOf(navigateMap.getLogin()));
+                wait.until(ExpectedConditions.elementToBeClickable(navigateMap.getLogin())).click();
+                break;
+            case "Sign up":
+                bodySection();
+                wait.until(ExpectedConditions.visibilityOf(navigateMap.getAcctDropdown()));
+                wait.until(ExpectedConditions.elementToBeClickable(navigateMap.getAcctDropdown())).click();
+                wait.until(ExpectedConditions.visibilityOf(navigateMap.getSignUpLink()));
+                wait.until(ExpectedConditions.elementToBeClickable(navigateMap.getSignUpLink())).click();
+                break;
         }
 
     }

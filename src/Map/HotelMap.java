@@ -11,8 +11,8 @@ public class HotelMap extends BaseTest {
     @FindBy(linkText = "Search by Hotel or City Name")
     private WebElement hotelName;
 
-    @FindBy(xpath = "//*[@id=\"select2-drop\"]/ul/li/ul/li/div/span")
-    //@FindBy(className = "select2-match")
+    //@FindBy(xpath = "//*[@id=\"select2-drop\"]/ul/li/ul/li/div/span")
+    @FindBy(css = "span.select2-match")
     private WebElement hotelResult;
 
     @FindBy(name = "checkin")
@@ -27,7 +27,7 @@ public class HotelMap extends BaseTest {
     @FindBy(css = ".btn.btn-lg.btn-block.btn-primary.pfb0.loader")
     private WebElement searchBtn;
 
-    @FindBy(linkText = "DETAILS")
+    @FindBy(css = ".btn.btn-primary.br25.loader.loader.btn-block")
     private WebElement detailInfos;
 
     @FindBy(css = "control__indicator")

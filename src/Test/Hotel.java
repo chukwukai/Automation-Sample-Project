@@ -2,10 +2,7 @@ package Test;
 
 import Map.HotelMap;
 import openqapackage.BaseTest;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.time.Duration;
@@ -17,28 +14,22 @@ public class Hotel extends BaseTest {
 
     //String slug = ((JavascriptExecutor) driver).executeScript("var elem = document.getElementsByClassName('embeddable-widget-selected-campus-slug')[0];return elem.innerText;").toString();
 
-    public void getHotel(String cityName) throws Exception  {
+    public void getHotel(String cityName)   {
         bodySection();
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.id("hotels"))));
         wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.id("hotels"))));
-        //WebElement scriptHotelName = (WebElement) js.executeScript("var hotel = document.getElementsById('s2id_autogen8').value 'cityName' ");
         wait.until(ExpectedConditions.visibilityOf(hotelMap.getHotelName())).click();
         wait.until(ExpectedConditions.elementToBeClickable(hotelMap.getHotelName())).sendKeys(cityName);
-        //wait.until(ExpectedConditions.elementToBeClickable(hotelMap.getHotelName())).sendKeys(cityName);
-        //wait.until(ExpectedConditions.textToBePresentInElement(hotelMap.getHotelName(), cityName));
-        Thread.sleep(2000);
-        js.executeScript("arguments[0].click();", hotelMap.getHotelResult());
+        //js.executeScript("arguments[0].click();", hotelMap.getHotelResult());
 
-        //wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.className("select2-result-label"))));
-        /*wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.className("select2-result-label"))));
-        wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.className("select2-result"))));
-        wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.className("select2-result"))));
+        wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"select2-drop\"]/ul"))));
+        wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("//*[@id=\"select2-drop\"]/ul"))));
         wait.until(ExpectedConditions.visibilityOf(hotelMap.getHotelResult()));
+        wait.until(ExpectedConditions.elementToBeClickable(hotelMap.getHotelResult())).click();
+        /*wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.className("select2-result"))));
+        wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.className("select2-result"))));
         wait.until(ExpectedConditions.elementToBeClickable(hotelMap.getHotelResult())).click(); */
         }
-        //wait.withTimeout(Duration.ofSeconds(20)).until(ExpectedConditions.visibilityOf((hotelMap.getHotelResult())));
-        //wait.until(ExpectedConditions.elementToBeClickable((hotelMap.getHotelResult())));
-        //hotelMap.getHotelResult().click();
 
     public void getCheckInDate() {
         //wait.until(ExpectedConditions.invisibilityOf((hotelMap.getHotelResult())));
@@ -54,17 +45,29 @@ public class Hotel extends BaseTest {
 
     public void selectSearchBtn() {
         wait.until(ExpectedConditions.invisibilityOf((hotelMap.getActiveDate())));
-        wait.until(ExpectedConditions.visibilityOf(hotelMap.getActiveDate()));
         wait.until(ExpectedConditions.elementToBeClickable(hotelMap.getSearchBtn())).click();
     }
 
     public void getDetailInfos() {
 
-        List<WebElement> hotelResult = driver.findElements(By.cssSelector("listingbg"));
-        for (WebElement searchHotel : hotelResult) {
-            if (hotelResult.contains("Hyatt Regency Perth")) ;
-            {
-                wait.until(ExpectedConditions.elementToBeClickable(hotelMap.getDetailInfos())).click();
+        try {
+        List<WebElement> hotelResult = driver.findElements(By.cssSelector(".wow.fadeIn.p-10-0.animated"));
+            bodySection();
+            for (WebElement searchHotel : hotelResult) {
+                if (searchHotel.getText().contains("Hyatt Regency Perth")) ;
+                {
+                    wait.until(ExpectedConditions.elementToBeClickable(hotelMap.getDetailInfos())).click();
+                }
+            }
+        }
+        catch (StaleElementReferenceException ex){
+            List<WebElement> hotelResult = driver.findElements(By.cssSelector(".wow.fadeIn.p-10-0.animated"));
+            bodySection();
+            for (WebElement searchHotel : hotelResult) {
+                if (searchHotel.getText().contains("Hyatt Regency Perth")) ;
+                {
+                    wait.until(ExpectedConditions.elementToBeClickable(hotelMap.getDetailInfos())).click();
+                }
             }
         }
     }

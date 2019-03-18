@@ -5,12 +5,6 @@ import org.openqa.selenium.support.FindBy;
 
 public class AcctCreation {
 
-    @FindBy(linkText = "MY ACCOUNT")
-    private WebElement AcctDropdown;
-
-    @FindBy(linkText = "Sign Up")
-    private WebElement signUpLink;
-
     @FindBy(name = "firstname")
     private WebElement firstName;
 
@@ -32,9 +26,11 @@ public class AcctCreation {
     @FindBy(css = ".signupbtn.btn_full.btn.btn-action.btn-block.btn-lg")
     private WebElement signUpBtn;
 
-    public WebElement getAcctDropdown(){ return AcctDropdown;}
+    @FindBy(name = "username")
+    private WebElement userName;
 
-    public WebElement getSignUpLink() { return signUpLink;}
+    @FindBy(css = ".btn.btn-action.btn-lg.btn-block.loginbtn")
+    private WebElement loginBtn;
 
     public WebElement getFirstName() {return firstName; }
 
@@ -49,4 +45,8 @@ public class AcctCreation {
     public WebElement getComfirmPwd() { return comfirmPwd;}
 
     public WebElement getSignUpBtn(){ return signUpBtn;}
+
+    public WebElement getUserName() { return userName; }
+
+    public WebElement getLoginBtn() { return loginBtn; }
 }
