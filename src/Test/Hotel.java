@@ -5,7 +5,6 @@ import openqapackage.BaseTest;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import java.time.Duration;
 import java.util.List;
 
 public class Hotel extends BaseTest {
@@ -36,8 +35,6 @@ public class Hotel extends BaseTest {
 
     public void getCheckOutDate() {
         wait.until(ExpectedConditions.elementToBeClickable(hotelMap.getCheckOutPicker())).click();
-        //wait.until(ExpectedConditions.visibilityOf(hotelMap.getActiveDate()));
-       // wait.until(ExpectedConditions.elementToBeClickable(hotelMap.getActiveDate())).click();
     }
 
     public void selectSearchBtn() {
@@ -45,18 +42,30 @@ public class Hotel extends BaseTest {
         wait.until(ExpectedConditions.elementToBeClickable(hotelMap.getSearchBtn())).click();
     }
 
-    public void getDetailInfos() {
+    public void getDetailInfos(){
 
-        List<WebElement> hotelResult = driver.findElements(By.cssSelector(".wow.fadeIn.p-10-0.animated"));
         bodySection();
-        for (WebElement searchHotel : hotelResult) {
-            if (searchHotel.getText().contains("Hyatt Regency Perth")) ;
-            {
-                wait.until(ExpectedConditions.elementToBeClickable(hotelMap.getDetailInfos())).click();
-                break;
+        //wait.until(ExpectedConditions.elementToBeClickable(hotelMap.getDetailInfos())).click();
+
+        WebElement element = driver.findElement(By.cssSelector(".btn.btn-primary.br25.btn-lg.btn-block.loader"));
+        js.executeScript("arguments[0].scrollIntoView(true);", element);
+
+        //wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("td.wow.fadeIn.p-10-0.animated")));
+        List<WebElement> hotelResult = driver.findElements(By.cssSelector(".center-block.loader"));
+        for (WebElement r: hotelResult) {
+            if(r.getText().contains("Rendezvous Hotels")) {
+                try {
+                    wait.until(ExpectedConditions.elementToBeClickable(hotelMap.getDetailInfos()));
+                    hotelMap.getDetailInfos().click();
+
+                } catch (StaleElementReferenceException elm) {
+                    wait.until(ExpectedConditions.elementToBeClickable(hotelMap.getDetailInfos()));
+                    hotelMap.getDetailInfos().click();
+                }
             }
 
         }
+
     }
 
 

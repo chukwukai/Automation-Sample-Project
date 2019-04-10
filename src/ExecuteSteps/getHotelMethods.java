@@ -1,20 +1,13 @@
-package Test;
+package ExecuteSteps;
 
-import Map.HotelMap;
-import Map.navigationMap;
-import Test.Hotel;
-import Test.GetUrl;
-import org.junit.Before;
 import org.junit.Test;
-import com.google.common.annotations.VisibleForTesting;
 import openqapackage.BaseTest;
-import org.junit.runner.RunWith;
-import org.junit.runners.Suite;
+
 
 public class getHotelMethods extends BaseTest {
 
     @Test
-    public void createHotel()   {
+    public void createHotel()  {
         url.GetUrl();
         navigateLink.navigatePage("Hotels");
         hotelMap.getHotelName();
@@ -35,7 +28,7 @@ public class getHotelMethods extends BaseTest {
     public void CreateAccount() throws  Exception{
         url.GetUrl();
         navigateLink.navigatePage("Sign up");
-        ac.AccountCreate("Tester", "test", "9009009000", "test24@sample.com", "testing123!");
+        ac.AccountCreate("Tester", "test", "9009009000", "test1@sample.com", "testing123!");
     }
 
     @Test

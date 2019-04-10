@@ -32,6 +32,30 @@ public class AcctCreation {
     @FindBy(css = ".btn.btn-action.btn-lg.btn-block.loginbtn")
     private WebElement loginBtn;
 
+    @FindBy(className = "profile-icon")
+    private WebElement profileLink;
+
+    @FindBy(name = "address1")
+    private WebElement addressLine1;
+
+    @FindBy(name = "address2")
+    private WebElement addressLine2;
+
+    @FindBy(name = "city")
+    private WebElement city;
+
+    @FindBy(name = "state")
+    private WebElement state;
+
+    @FindBy(name = "zip")
+    private WebElement zipCode;
+
+    @FindBy(name = "country")
+    private WebElement country;
+
+    @FindBy(linkText = "Submit")
+    private WebElement submitBtn;
+
     public WebElement getFirstName() {return firstName; }
 
     public WebElement getLastName(){ return lastName;}
@@ -49,4 +73,22 @@ public class AcctCreation {
     public WebElement getUserName() { return userName; }
 
     public WebElement getLoginBtn() { return loginBtn; }
+
+    public WebElement getProfileLink(){return profileLink;}
+
+    public WebElement getAddressLine1() {return addressLine1;}
+
+    public WebElement getAddressLine2(){return  addressLine2;}
+
+    public WebElement getCity() {return city;}
+
+    public WebElement getState(){return state;}
+
+    public WebElement getZipCode(){return zipCode;}
+
+    public WebElement getCountry(){return country;}
+
+    public WebElement getSubmitBtn(){return submitBtn;}
+
+
 }

@@ -3,7 +3,7 @@ package Test;
 import openqapackage.BaseTest;
 import org.junit.After;
 import org.junit.Before;
-import Test.getHotelMethods;
+import ExecuteSteps.getHotelMethods;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 

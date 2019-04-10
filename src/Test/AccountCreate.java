@@ -5,6 +5,7 @@ import org.junit.Assert;
 import openqapackage.BaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import java.util.List;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import static org.junit.Assert.assertFalse;
@@ -39,5 +40,29 @@ public class AccountCreate extends BaseTest {
         String getProfileText = driver.findElement(By.cssSelector("h3.RTL")).getText();
         assertTrue(getProfileText.contains(fname));
 
+    }
+
+    public void addressProfile(String address1, String address2, String city, String state, String zip){
+        wait.until(ExpectedConditions.elementToBeClickable(acct.getProfileLink())).click();
+        wait.until(ExpectedConditions.elementToBeClickable(acct.getAddressLine1())).sendKeys(address1);
+        wait.until(ExpectedConditions.elementToBeClickable(acct.getAddressLine2())).sendKeys(address2);
+        wait.until(ExpectedConditions.elementToBeClickable(acct.getCity())).sendKeys(city);
+        wait.until(ExpectedConditions.elementToBeClickable(acct.getState())).sendKeys(state);
+        wait.until(ExpectedConditions.elementToBeClickable(acct.getZipCode())).sendKeys(zip);
+        wait.until(ExpectedConditions.visibilityOf(acct.getCountry()));
+        wait.until(ExpectedConditions.elementToBeClickable(acct.getCountry()));
+
+        acct.getCountry().click();
+        WebElement dropdownElment = acct.getCountry();
+
+        wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.className("value"))));
+        //wait.until(ExpectedConditions.elementToBeClickable(acct.getCountry())).click();
+        List <WebElement> dropdownCountry = driver.findElements(By.className("value"));
+            for (WebElement textCountry: dropdownCountry) {
+                if(textCountry.getText().contains("US")){
+                    textCountry.click();
+                }
+        }
+        wait.until(ExpectedConditions.elementToBeClickable(acct.getSubmitBtn())).click();
     }
 }

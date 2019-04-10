@@ -27,7 +27,8 @@ public class HotelMap extends BaseTest {
     @FindBy(css = ".btn.btn-lg.btn-block.btn-primary.pfb0.loader")
     private WebElement searchBtn;
 
-    @FindBy(css = ".btn.btn-primary.br25.loader.loader.btn-block")
+    @FindBy(linkText = "DETAILS")
+    //@FindBy(css = ".btn.btn-primary.br25.loader.loader.btn-block")
     private WebElement detailInfos;
 
     @FindBy(css = "control__indicator")
