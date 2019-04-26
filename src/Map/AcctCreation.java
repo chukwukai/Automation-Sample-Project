@@ -53,8 +53,10 @@ public class AcctCreation {
     @FindBy(name = "country")
     private WebElement country;
 
-    @FindBy(linkText = "Submit")
+    //@FindBy(xpath = "//button[class = 'updateprofile']")
+    @FindBy(css = ".btn.btn-action.btn-block.updateprofile")
     private WebElement submitBtn;
+
 
     public WebElement getFirstName() {return firstName; }
 
@@ -89,6 +91,7 @@ public class AcctCreation {
     public WebElement getCountry(){return country;}
 
     public WebElement getSubmitBtn(){return submitBtn;}
+
 
 
 }

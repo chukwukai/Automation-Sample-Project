@@ -30,6 +30,15 @@ public class NavigateLink extends BaseTest{
                 wait.until(ExpectedConditions.visibilityOf(navigateMap.getSignUpLink()));
                 wait.until(ExpectedConditions.elementToBeClickable(navigateMap.getSignUpLink())).click();
                 break;
+
+            case "Logout":
+                bodySection();
+                wait.until(ExpectedConditions.visibilityOf(navigateMap.getAcctDropdown()));
+                wait.until(ExpectedConditions.elementToBeClickable(navigateMap.getAcctDropdown())).click();
+                wait.until(ExpectedConditions.visibilityOf(navigateMap.getLogoutLink()));
+                wait.until(ExpectedConditions.elementToBeClickable(navigateMap.getLogoutLink())).click();
+                break;
+
         }
 
     }

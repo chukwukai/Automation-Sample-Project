@@ -21,6 +21,9 @@ public class navigationMap extends BaseTest{
     @FindBy(linkText = "Login")
     private WebElement login;
 
+    @FindBy(linkText = "Logout")
+    private WebElement logoutLink;
+
 
     public WebElement getOffersLink() { return offersLink;}
 
@@ -31,5 +34,7 @@ public class navigationMap extends BaseTest{
     public WebElement getSignUpLink() { return signUpLink;}
 
     public WebElement getLogin() { return login; }
+
+    public WebElement getLogoutLink(){ return logoutLink;}
 
 }

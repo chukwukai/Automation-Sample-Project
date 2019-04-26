@@ -5,24 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1d07eaf-fc76-470b-9f18-b3effe6ff6dd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ExecuteSteps/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExecuteSteps/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExecuteSteps/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExecuteSteps/getHotelMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExecuteSteps/getHotelMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Map/AcctCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map/AcctCreation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Map/HotelMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map/HotelMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Map/navigationMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map/navigationMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/AccountCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/AccountCreate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/GetUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/GetUrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Hotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/getHotelMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExecuteSteps/getHotelMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SampleProject-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/SampleProject-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/NavigateLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/NavigateLink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/openqapackage/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/openqapackage/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ExecuteSteps/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ExecuteSteps/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ExecuteSteps/getHotelMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ExecuteSteps/getHotelMethods.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Map/AcctCreation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Map/AcctCreation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Map/HotelMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Map/HotelMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Map/navigationMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Map/navigationMap.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Test/AccountCreate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/AccountCreate.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Test/GetUrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/GetUrl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test/Hotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/Hotel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test/getHotelMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test/NavigateLink.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/NavigateLink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/openqapackage/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/openqapackage/BaseTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,25 +42,35 @@
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-238406685">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1197" />
+          <entry key="JAVA" value="2643" />
+          <entry key="PLAIN_TEXT" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="5" />
-          <entry key="JAVA" value="5" />
+          <entry key="CLASS" value="17" />
+          <entry key="JAVA" value="11" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Properties" value="1" />
+          <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -69,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Map/HotelMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+            <state relative-caret-position="75">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -78,17 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test/NavigateLink.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/openqapackage/BaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="570">
+              <caret line="38" column="94" selection-start-line="38" selection-start-column="94" selection-end-line="38" selection-end-column="94" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,10 +99,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Map/navigationMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ExecuteSteps/getHotelMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
+            <state relative-caret-position="240">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,8 +122,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Map/AcctCreation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+            <state relative-caret-position="1395">
+              <caret line="93" selection-start-line="93" selection-end-line="93" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test/AccountCreate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test/GetUrl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/openqapackage/BaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="22" column="58" lean-forward="true" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,22 +168,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Test/AccountCreate.java">
+        <entry file="file://$PROJECT_DIR$/Settings/Endpoints.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="15">
+              <caret line="1" column="36" lean-forward="true" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -144,8 +179,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ExecuteSteps/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+            <state relative-caret-position="57">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -184,18 +219,20 @@
         <option value="$PROJECT_DIR$/src/Map/Builder.java" />
         <option value="$PROJECT_DIR$/src/Test/AcctCreation.java" />
         <option value="$PROJECT_DIR$/src/driver/DriverPath.java" />
-        <option value="$PROJECT_DIR$/src/openqapackage/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/Map/navigationMap.java" />
-        <option value="$PROJECT_DIR$/src/Test/NavigateLink.java" />
-        <option value="$PROJECT_DIR$/src/Test/GetUrl.java" />
         <option value="$PROJECT_DIR$/src/Test/getHotelMethods.java" />
-        <option value="$PROJECT_DIR$/src/Map/HotelMap.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/ExecuteSteps/getHotelMethods.java" />
         <option value="$PROJECT_DIR$/src/Test/Hotel.java" />
-        <option value="$PROJECT_DIR$/src/ExecuteSteps/User.java" />
-        <option value="$PROJECT_DIR$/src/Map/AcctCreation.java" />
+        <option value="$PROJECT_DIR$/src/ExecuteSteps/getHotelMethods.java" />
+        <option value="$PROJECT_DIR$/Settings/GetUrl.java" />
+        <option value="$PROJECT_DIR$/src/openqapackage/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/Test/GetUrl.java" />
         <option value="$PROJECT_DIR$/src/Test/AccountCreate.java" />
+        <option value="$PROJECT_DIR$/src/ExecuteSteps/User.java" />
+        <option value="$PROJECT_DIR$/src/Test/NavigateLink.java" />
+        <option value="$PROJECT_DIR$/src/Map/AcctCreation.java" />
+        <option value="$PROJECT_DIR$/src/Map/navigationMap.java" />
+        <option value="$PROJECT_DIR$/src/Map/HotelMap.java" />
+        <option value="$PROJECT_DIR$/Settings/Endpoints" />
       </list>
     </option>
   </component>
@@ -235,14 +272,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="SampleProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="SampleProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SampleProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SampleProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Settings" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SampleProject" type="b2602c69:ProjectViewProjectNode" />
@@ -311,10 +353,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="h&#9;FILE&#9;file:///Users/595213/dev/SampleProject/src/Map/HotelMap.java&#10;bas&#9;FILE&#9;file:///Users/595213/dev/SampleProject/src/openqapackage/BaseTest.java&#10;u&#9;FILE&#9;file:///Users/595213/dev/SampleProject/src/Test/GetUrl.java&#10;pom&#9;FILE&#9;file:///Users/595213/dev/SampleProject/pom.xml&#10;driverfact&#9;PSI&#9;JAVA://org.openqa.selenium.remote.server.DriverFactory" />
+    <property name="SearchEverywhereHistoryKey" value="base&#9;FILE&#9;file:///Users/595213/dev/SampleProject/src/openqapackage/BaseTest.java&#10;h&#9;FILE&#9;file:///Users/595213/dev/SampleProject/src/Map/HotelMap.java&#10;bas&#9;FILE&#9;file:///Users/595213/dev/SampleProject/src/openqapackage/BaseTest.java&#10;u&#9;FILE&#9;file:///Users/595213/dev/SampleProject/src/Test/GetUrl.java&#10;pom&#9;FILE&#9;file:///Users/595213/dev/SampleProject/pom.xml&#10;driverfact&#9;PSI&#9;JAVA://org.openqa.selenium.remote.server.DriverFactory" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554861302580" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556251516562" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -330,6 +373,10 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Test" />
+      <recent name="$PROJECT_DIR$/Settings" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -367,6 +414,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="Test" />
       <option name="MAIN_CLASS_NAME" value="Test.GetUrl" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="User.CreateAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SampleProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ExecuteSteps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ExecuteSteps" />
+      <option name="MAIN_CLASS_NAME" value="ExecuteSteps.User" />
+      <option name="METHOD_NAME" value="CreateAccount" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -412,23 +476,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="getHotelMethods.LoginPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SampleProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ExecuteSteps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ExecuteSteps" />
-      <option name="MAIN_CLASS_NAME" value="ExecuteSteps.getHotelMethods" />
-      <option name="METHOD_NAME" value="LoginPage" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="getHotelMethods.createHotel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SampleProject" />
       <extension name="coverage">
@@ -466,17 +513,17 @@
     <list>
       <item itemvalue="JUnit.GetUrl" />
       <item itemvalue="JUnit.getHotelMethods.CreateAccount" />
-      <item itemvalue="JUnit.getHotelMethods.LoginPage" />
       <item itemvalue="JUnit.getHotelMethods.createHotel" />
       <item itemvalue="JUnit.User.LoginPage" />
+      <item itemvalue="JUnit.User.CreateAccount" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.User.LoginPage" />
+        <item itemvalue="JUnit.User.CreateAccount" />
         <item itemvalue="JUnit.getHotelMethods.CreateAccount" />
         <item itemvalue="JUnit.GetUrl" />
         <item itemvalue="JUnit.getHotelMethods.createHotel" />
-        <item itemvalue="JUnit.getHotelMethods.LoginPage" />
       </list>
     </recent_temporary>
   </component>
@@ -515,34 +562,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="User_LoginPage - 2019.04.07 at 10h 17m 07s.xml">
+    <history-entry file="User_LoginPage - 2019.04.23 at 23h 04m 25s.xml">
       <configuration name="User.LoginPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="User_LoginPage - 2019.04.07 at 10h 30m 23s.xml">
+    <history-entry file="User_LoginPage - 2019.04.23 at 23h 05m 12s.xml">
       <configuration name="User.LoginPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="User_LoginPage - 2019.04.07 at 11h 21m 00s.xml">
+    <history-entry file="User_LoginPage - 2019.04.23 at 23h 10m 39s.xml">
       <configuration name="User.LoginPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="User_LoginPage - 2019.04.07 at 11h 22m 17s.xml">
+    <history-entry file="User_LoginPage - 2019.04.23 at 23h 17m 52s.xml">
       <configuration name="User.LoginPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="User_LoginPage - 2019.04.09 at 20h 42m 57s.xml">
+    <history-entry file="User_LoginPage - 2019.04.23 at 23h 39m 22s.xml">
       <configuration name="User.LoginPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="User_LoginPage - 2019.04.09 at 20h 43m 54s.xml">
+    <history-entry file="User_LoginPage - 2019.04.23 at 23h 39m 23s.xml">
       <configuration name="User.LoginPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="User_LoginPage - 2019.04.09 at 20h 46m 24s.xml">
+    <history-entry file="User_LoginPage - 2019.04.23 at 23h 40m 12s.xml">
       <configuration name="User.LoginPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="User_LoginPage - 2019.04.09 at 20h 54m 28s.xml">
+    <history-entry file="User_LoginPage - 2019.04.24 at 22h 17m 26s.xml">
       <configuration name="User.LoginPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="User_LoginPage - 2019.04.09 at 21h 08m 47s.xml">
+    <history-entry file="User_LoginPage - 2019.04.25 at 23h 46m 53s.xml">
       <configuration name="User.LoginPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="User_LoginPage - 2019.04.09 at 21h 28m 46s.xml">
+    <history-entry file="User_LoginPage - 2019.04.26 at 00h 04m 25s.xml">
       <configuration name="User.LoginPage" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -553,7 +600,7 @@
     <frame x="70" y="23" width="1370" height="840" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27033132" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28463855" />
       <window_info id="Structure" order="1" weight="0.2532189" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -562,8 +609,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32872927" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35828876" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.46791443" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45454547" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5026738" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -572,7 +619,6 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3275401" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3298193" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -583,9 +629,10 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.2567771" />
       <window_info anchor="right" id="Maven" order="9" visible="true" weight="0.3298193" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.3298193" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26656628" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2816265" />
       <window_info id="Structure" order="1" weight="0.2532189" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -594,8 +641,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32872927" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35828876" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.46791443" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45454547" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5026738" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -603,7 +650,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3262032" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3275401" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.3275401" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -614,6 +661,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.2567771" />
       <window_info anchor="right" id="Maven" order="9" visible="true" weight="0.3298193" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.3298193" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -651,7 +699,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Test/AccountCreate.java</url>
-          <line>46</line>
+          <line>45</line>
           <properties />
           <option name="timeStamp" value="74" />
         </line-breakpoint>
@@ -676,6 +724,16 @@
       </expression>
     </expressions>
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>WebElement addressValidation1 = driver.findElement(By.name(&quot;address1&quot;));</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>String addressValidation1 = driver.findElement(By.name(&quot;address1&quot;)).getText();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>driver.findElement(By.xpath(&quot;//*[@id=\&quot;body-section\&quot;]/div[1]/div/div/div[1]/h3&quot;))</expression-string>
         <language-id>JAVA</language-id>
@@ -708,16 +766,6 @@
       </expression>
       <expression>
         <expression-string>acct.getAcctDropdown())</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>driver.findElement(By.xpath(&quot;//*[@id=\\\&quot;s2id_autogen8\\\&quot;]/a&quot;))</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>driver</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1100,25 +1148,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/GetUrl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Map/navigationMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1126,71 +1155,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/Hotel.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="56" column="21" lean-forward="true" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="99">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Map/HotelMap.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.13.0/selenium-api-3.13.0.jar!/org/openqa/selenium/By.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/NavigateLink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/openqapackage/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExecuteSteps/getHotelMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExecuteSteps/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="241">
+          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="167">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/Hotel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.13.0/selenium-support-3.13.0.jar!/org/openqa/selenium/support/ui/WebDriverWait.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" />
+    <entry file="file://$PROJECT_DIR$/src/Map/HotelMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/NavigateLink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="94" selection-start-line="38" selection-start-column="94" selection-end-line="38" selection-end-column="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Map/navigationMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Map/AcctCreation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+        <state relative-caret-position="1395">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1199,11 +1230,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test/AccountCreate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+        <state relative-caret-position="495">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExecuteSteps/getHotelMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Settings/Endpoints">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="41" lean-forward="true" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExecuteSteps/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/GetUrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/openqapackage/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="22" column="58" lean-forward="true" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Settings/Endpoints.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="36" lean-forward="true" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
         </state>
       </provider>
     </entry>

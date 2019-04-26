@@ -14,9 +14,15 @@ public class GetUrl extends BaseTest{
     @Before
     public void GetUrl(){
 
-        String url = "https://www.phptravels.net/";
+        driver.get(Travel_Url);
+        bodySection();
 
-        driver.get(url);
+
+    }
+
+    public void getAdminUrl(){
+
+        driver.get(Travel_Url + "/admin");
         bodySection();
 
 

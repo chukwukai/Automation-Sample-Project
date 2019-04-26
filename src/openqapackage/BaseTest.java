@@ -5,24 +5,22 @@ import Map.HotelMap;
 import Test.AccountCreate;
 import Test.Hotel;
 import Test.GetUrl;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.openqa.selenium.JavascriptException;
 import driver.DriverPath;
 import Map.navigationMap;
 import Test.NavigateLink;
 
-import org.junit.*;
+import static org.junit.Assert.assertTrue;
 
 
 public class BaseTest {
 
     public static WebDriver driver = DriverPath.getDriver();
     public WebDriverWait wait = new WebDriverWait(driver, 10);
+    public static String Travel_Url = System.getenv("Travels_Url");
     public static GetUrl url = new GetUrl();
     public static HotelMap hotelMap = PageFactory.initElements(driver, HotelMap.class);
     public static Hotel hotel = new Hotel();
@@ -37,5 +35,11 @@ public class BaseTest {
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.id("body-section"))));
     }
 
+    public void successMessage() {
+        WebElement successText = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".alert.alert-success")));
+        assertTrue(successText.getText().contains("Profile Updated Successfully."));
+    }
+
 
 }
+
