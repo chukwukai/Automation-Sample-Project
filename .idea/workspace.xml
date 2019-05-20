@@ -5,34 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1d07eaf-fc76-470b-9f18-b3effe6ff6dd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectTestNG.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/EndpointsProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Endpoints.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SampleProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SampleProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Settings/Endpoints.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Settings/Endpoints.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExecuteSteps/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExecuteSteps/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExecuteSteps/getHotelMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExecuteSteps/getHotelMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Map/navigationMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map/navigationMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/AccountCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Main/AccountCreate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/GetUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Main/GetUrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Main/Hotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/NavigateLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Main/NavigateLink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/driver/DriverPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/driver/DriverPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/openqapackage/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/openqapackage/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SampleProject-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/SampleProject-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ExecuteSteps/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ExecuteSteps/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ExecuteSteps/getHotelMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ExecuteSteps/getHotelMethods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Map/navigationMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Map/navigationMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test/AccountCreate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test/GetUrl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test/Hotel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test/NavigateLink.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/driver/DriverPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/driver/DriverPath.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/openqapackage/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/openqapackage/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -74,7 +48,7 @@
           <entry key="JAVA" value="4315" />
           <entry key="PLAIN_TEXT" value="52" />
           <entry key="Properties" value="12" />
-          <entry key="XML" value="201" />
+          <entry key="XML" value="202" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -84,22 +58,13 @@
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="4" />
           <entry key="Scratch" value="1" />
-          <entry key="XML" value="3" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.10/testng-6.10-sources.jar!/org/testng/internal/Invoker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9135">
-              <caret line="659" selection-start-line="659" selection-end-line="659" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Map/navigationMap.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -121,6 +86,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Map/HotelMap.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -130,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ExecuteSteps/getHotelMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+            <state relative-caret-position="420">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,7 +132,7 @@
         <entry file="file://$PROJECT_DIR$/src/Test/Main/Hotel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -170,7 +144,7 @@
         <entry file="file://$PROJECT_DIR$/src/ExecuteSteps/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -181,8 +155,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProjectTestNG.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            <state relative-caret-position="120">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -245,13 +219,13 @@
         <option value="$PROJECT_DIR$/src/Test/NavigateLink.java" />
         <option value="$PROJECT_DIR$/src/Test/AccountCreate.java" />
         <option value="$PROJECT_DIR$/src/driver/DriverPath.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/Test/Main/GetUrl.java" />
         <option value="$PROJECT_DIR$/src/ExecuteSteps/User.java" />
         <option value="$PROJECT_DIR$/ProjectTestNG.xml" />
         <option value="$PROJECT_DIR$/src/Test/Main/NavigateLink.java" />
         <option value="$PROJECT_DIR$/src/Map/navigationMap.java" />
         <option value="$PROJECT_DIR$/src/ExecuteSteps/getHotelMethods.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -318,26 +292,7 @@
               <item name="SampleProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="SampleProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ExecuteSteps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SampleProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SampleProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Map" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SampleProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SampleProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SampleProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SampleProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SampleProject" type="b2602c69:ProjectViewProjectNode" />
@@ -1282,13 +1237,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test/Main/NavigateLink.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
@@ -1316,13 +1264,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProjectTestNG.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test/Main/AccountCreate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1336,7 +1277,7 @@
     <entry file="file://$PROJECT_DIR$/src/ExecuteSteps/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1346,7 +1287,7 @@
     <entry file="file://$PROJECT_DIR$/src/Test/Main/Hotel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1379,11 +1320,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ExecuteSteps/getHotelMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="420">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectTestNG.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
         </state>
       </provider>
     </entry>
