@@ -1,4 +1,4 @@
-package Test;
+package Test.Main;
 
 import Map.HotelMap;
 import openqapackage.BaseTest;

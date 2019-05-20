@@ -1,6 +1,7 @@
 package ExecuteSteps;
 
-import org.junit.Test;
+//import org.junit.Test;
+import org.testng.annotations.Test;
 import openqapackage.BaseTest;
 
 
@@ -17,11 +18,11 @@ public class getHotelMethods extends BaseTest {
         hotelMap.getCheckOutPicker();
         hotel.getCheckOutDate();
         hotel.selectSearchBtn();
-        hotel.getDetailInfos();
+        /*hotel.getDetailInfos();
         hotelMap.getCheck();
         hotel.getCheckBox();
         hotelMap.getBookNow();
-        hotel.getBookNow();
+        hotel.getBookNow(); */
     }
 
 

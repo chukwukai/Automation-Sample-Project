@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Suite Test">
+    <test name="Smoke Test Cases">
+        <classes>
+            <class name="ExecuteSteps.User" />
+            <class name="ExecuteSteps.getHotelMethods" />
+        </classes>
+    </test>
+</suite>

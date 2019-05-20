@@ -16,7 +16,7 @@ public class DriverPath {
 
     public static void setDriver() {
 
-        ChromeDriverManager.getInstance().version("73.0").setup();
+        ChromeDriverManager.getInstance().version("74.0").setup();
         driver = new ChromeDriver();
 
     }

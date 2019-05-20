@@ -12,6 +12,8 @@ public class navigationMap extends BaseTest{
     @FindBy(linkText = "HOTELS")
     private WebElement hotelLink;
 
+    //@FindBy(xpath = "//*[@class=\"icon_set_1_icon-70\" ]")
+    //@FindBy(css = ".icon_set_1_icon-70.go-right")
     @FindBy(linkText = "MY ACCOUNT")
     private WebElement AcctDropdown;
 
@@ -23,6 +25,12 @@ public class navigationMap extends BaseTest{
 
     @FindBy(linkText = "Logout")
     private WebElement logoutLink;
+
+    @FindBy(partialLinkText = "ACCOUNTS")
+    private WebElement accountLink;
+
+    @FindBy(linkText = "CUSTOMERS")
+    private WebElement customerLink;
 
 
     public WebElement getOffersLink() { return offersLink;}
@@ -36,5 +44,9 @@ public class navigationMap extends BaseTest{
     public WebElement getLogin() { return login; }
 
     public WebElement getLogoutLink(){ return logoutLink;}
+
+    public WebElement getAccountLink(){ return accountLink;}
+
+    public WebElement getCustomerLink(){ return customerLink;}
 
 }

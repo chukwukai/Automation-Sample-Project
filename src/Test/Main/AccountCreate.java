@@ -1,4 +1,4 @@
-package Test;
+package Test.Main;
 
 import Map.AcctCreation;
 import org.junit.Assert;
@@ -24,12 +24,9 @@ public class AccountCreate extends BaseTest {
         wait.until(ExpectedConditions.elementToBeClickable(acct.getEmailAddress())).sendKeys(email);
         wait.until(ExpectedConditions.elementToBeClickable(acct.getPassword())).sendKeys(pwd);
         wait.until(ExpectedConditions.elementToBeClickable(acct.getComfirmPwd())).sendKeys(pwd);
-        wait.until(ExpectedConditions.elementToBeClickable(acct.getSignUpBtn())).click();
-        Thread.sleep(2000);
-        bodySection();
-        wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.id("bookings"))));
-        String getProfileText = driver.findElement(By.cssSelector("h3.RTL")).getText();
-        assertTrue(getProfileText.contains(fname));
+        //wait.until(ExpectedConditions.elementToBeClickable(acct.getSignUpBtn())).click();
+
+        js.executeScript("arguments[0].click();", acct.getSignUpBtn());
 
     }
 
@@ -51,10 +48,8 @@ public class AccountCreate extends BaseTest {
         wait.until(ExpectedConditions.visibilityOf(acct.getCountry()));
         wait.until(ExpectedConditions.elementToBeClickable(acct.getCountry()));
 
-        //acct.getCountry().click();
         WebElement dropdownElement = acct.getCountry();
 
-        //wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.("option"))));
         List <WebElement> dropdownCountry = dropdownElement.findElements(By.xpath("//select/option[@value]"));
             for (WebElement textCountry: dropdownCountry) {
                 if(textCountry.getText().equalsIgnoreCase(country)){
@@ -65,7 +60,7 @@ public class AccountCreate extends BaseTest {
     }
 
     public void ProfileValidation(String fname) throws Exception{
-        Thread.sleep(2000);
+        Thread.sleep(4000);
         bodySection();
         String getProfileText = driver.findElement(By.cssSelector("h3.RTL")).getText();
         assertTrue(getProfileText.contains(fname));

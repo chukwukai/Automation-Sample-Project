@@ -1,4 +1,4 @@
-package Test;
+package Test.Main;
 
 import openqapackage.BaseTest;
 import org.junit.After;
@@ -6,15 +6,19 @@ import org.junit.Before;
 import ExecuteSteps.getHotelMethods;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 
-@RunWith(Suite.class)
-@Suite.SuiteClasses(getHotelMethods.class)
+//@RunWith(Suite.class)
+//@Suite.SuiteClasses(getHotelMethods.class)
 public class GetUrl extends BaseTest{
 
-    @Before
+    @BeforeSuite
     public void GetUrl(){
 
-        driver.get(Travel_Url);
+        driver.get(Travels_Url);
         bodySection();
 
 
@@ -22,13 +26,13 @@ public class GetUrl extends BaseTest{
 
     public void getAdminUrl(){
 
-        driver.get(Travel_Url + "/admin");
+        driver.get(Travels_Url + "/admin");
         bodySection();
 
 
     }
 
-    @After
+    @AfterSuite
     public void closeBrowser(){
         driver.close();
     }

@@ -1,4 +1,4 @@
-package Test;
+package Test.Main;
 
 import openqapackage.BaseTest;
 import Map.navigationMap;
@@ -38,6 +38,12 @@ public class NavigateLink extends BaseTest{
                 wait.until(ExpectedConditions.visibilityOf(navigateMap.getLogoutLink()));
                 wait.until(ExpectedConditions.elementToBeClickable(navigateMap.getLogoutLink())).click();
                 break;
+
+            case "Customers":
+                wait.until(ExpectedConditions.visibilityOf(navigateMap.getAccountLink()));
+                wait.until(ExpectedConditions.elementToBeClickable(navigateMap.getAccountLink())).click();
+                wait.until(ExpectedConditions.visibilityOf(navigateMap.getCustomerLink()));
+                wait.until(ExpectedConditions.elementToBeClickable(navigateMap.getCustomerLink())).click();
 
         }
 
